@@ -116,9 +116,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<li><a href="#about">About</a></li>
 							<li><a href="#resume">Resume</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#service">Service</a></li>
+							<!-- <li><a href="#service">Service</a></li> -->
 							<li><a href="#testimonial">Testimonial</a></li>
-							<li><a href="#news">Blog</a></li>
+							<!-- <li><a href="#news">Blog</a></li> -->
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
@@ -378,83 +378,107 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 							<div class="right">
-								<div class="skills_list">
+								<div class="info_list">
 									<div class="iknow_tm_resume_title">
 										<h3>Personal Skills</h3>
 										<span class="shape"></span>
 									</div>
-									<div class="personal">
-										<div class="dodo_progress">
-											<div class="progress_inner" data-value="90">
-												<span><span class="label">Time Management</span><span class="number">90%</span></span>
-												<div class="background">
-													<div class="bar">
-														<div class="bar_in"></div>
+									<ul>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Graphic Design</h3>
+														<!-- <span>University of Maine</span> -->
 													</div>
+
+												</div>
+												<div class="text">
+													<p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
 												</div>
 											</div>
-											<div class="progress_inner" data-value="70">
-												<span><span class="label">Effeciency</span><span class="number">70%</span></span>
-												<div class="background">
-													<div class="bar">
-														<div class="bar_in"></div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Civil Engineering</h3>
+														<!-- <span>University of Texas</span> -->
 													</div>
+
+												</div>
+												<div class="text">
+													<p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
 												</div>
 											</div>
-											<div class="progress_inner" data-value="80">
-												<span><span class="label">Intigrity</span><span class="number">80%</span></span>
-												<div class="background">
-													<div class="bar">
-														<div class="bar_in"></div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Bachelor of Science</h3>
+														<!-- <span>Univercity of Dhaka</span> -->
 													</div>
+
+												</div>
+												<div class="text">
+													<p>This project is called a thesis and is usually presented in front of a group of people, including university professors who will evaluate it and let the student..</p>
 												</div>
 											</div>
-										</div>
-									</div>
+
+										</li>
+									</ul>
 								</div>
-								<div class="skills_list">
+								<div class="info_list">
 									<div class="iknow_tm_resume_title">
 										<h3>Software Skills</h3>
 										<span class="shape"></span>
 									</div>
-									<div class="software">
-										<div class="circular_progress_bar">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="myCircle" data-value="0.8"></div>
-														<div class="title">
-															<h3>Ms Office</h3>
-														</div>
+									<ul>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Graphic Design</h3>
+														<!-- <span>University of Maine</span> -->
 													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="myCircle" data-value="0.75"></div>
-														<div class="title">
-															<h3>Photoshop</h3>
-														</div>
+
+												</div>
+												<div class="text">
+													<p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Civil Engineering</h3>
+														<!-- <span>University of Texas</span> -->
 													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="myCircle" data-value="0.9"></div>
-														<div class="title">
-															<h3>Illustrator</h3>
-														</div>
+
+												</div>
+												<div class="text">
+													<p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="short">
+													<div class="job">
+														<h3>Bachelor of Science</h3>
+														<!-- <span>Univercity of Dhaka</span> -->
 													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="myCircle" data-value="0.65"></div>
-														<div class="title">
-															<h3>Figma</h3>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
+
+												</div>
+												<div class="text">
+													<p>This project is called a thesis and is usually presented in front of a group of people, including university professors who will evaluate it and let the student..</p>
+												</div>
+											</div>
+
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -472,30 +496,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="portfolio_filter">
 							<ul>
 								<li><a href="#" class="current" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".vimeo">Vimeo</a></li>
-								<li><a href="#" data-filter=".youtube">Youtube</a></li>
-								<li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
+								<!-- <li><a href="#" data-filter=".youtube">Youtube</a></li> -->
+								<!-- <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li> -->
 								<li><a href="#" data-filter=".detail">Detail</a></li>
 							</ul>
 						</div>
 						<div class="portfolio_list">
 							<ul class="gallery_zoom">
-								<li class="vimeo">
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
-										</div>
-										<div class="overlay"></div>
-										<img class="svg" src="assets/img/svg/social/vimeo.svg" alt="" />
-										<div class="details">
-											<span>Vimeo</span>
-											<h3>Aumeo Audio</h3>
-										</div>
-										<a class="iknow_tm_full_link popup-vimeo" href="https://vimeo.com/337293658"></a>
-									</div>
-								</li>
-								<li class="youtube">
+
+								<!-- <li class="youtube">
 									<div class="list_inner">
 										<div class="image">
 											<img src="assets/img/thumbs/1-1.jpg" alt="" />
@@ -540,22 +549,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</div>
 										<a class="iknow_tm_full_link popup-youtube" href="https://www.youtube.com/watch?v=l-epKcOA7RQ"></a>
 									</div>
-								</li>
-								<li class="vimeo">
-									<div class="list_inner">
-										<div class="image">
-											<img src="assets/img/thumbs/1-1.jpg" alt="" />
-											<div class="main" data-img-url="assets/img/portfolio/7.jpg"></div>
-										</div>
-										<div class="overlay"></div>
-										<img class="svg" src="assets/img/svg/social/vimeo.svg" alt="" />
-										<div class="details">
-											<span>Vimeo</span>
-											<h3>Smart Watch</h3>
-										</div>
-										<a class="iknow_tm_full_link popup-vimeo" href="https://vimeo.com/337292310"></a>
-									</div>
-								</li>
+								</li> -->
+
 								<li class="detail">
 									<div class="list_inner">
 										<div class="image">
@@ -577,7 +572,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance ease of modification.</p>
 														<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product.</p>
 													</div>
-													<div class="detailbox">
+													<!-- <div class="detailbox">
 														<ul>
 															<li>
 																<span class="first">Client</span>
@@ -601,7 +596,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																</ul>
 															</li>
 														</ul>
-													</div>
+													</div> -->
 												</div>
 												<div class="additional_images">
 													<ul>
@@ -643,7 +638,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<!-- /PORTFOLIO -->
 
 				<!-- SERVICES -->
-				<div class="iknow_tm_section_new" id="service">
+				<!-- <div class="iknow_tm_section_new" id="service">
 					<div class="iknow_tm_services">
 						<div class="iknow_tm_main_title">
 							<span>Service</span>
@@ -781,7 +776,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- /SERVICES -->
 
 				<!-- TESTIMONIALS -->
@@ -903,7 +898,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<!-- /TESTIMONIALS -->
 
 				<!-- NEWS -->
-				<div class="iknow_tm_section_new" id="news">
+				<!-- <div class="iknow_tm_section_new" id="news">
 					<div class="iknow_tm_news">
 						<div class="iknow_tm_main_title">
 							<span>Blog</span>
@@ -985,7 +980,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- /NEWS -->
 
 				<!-- CONTACT -->
@@ -1034,9 +1029,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 										<div class="input_list">
 											<ul>
-												<li><input id="name" type="text" placeholder="Your Name" /></li>
+												<!-- <li><input id="name" type="text" placeholder="Your Name" /></li> -->
 												<li><input id="email" type="text" placeholder="Your Email" /></li>
-												<li><input id="phone" type="number" placeholder="Your Phone" /></li>
+												<!-- <li><input id="phone" type="number" placeholder="Your Phone" /></li> -->
 												<li><input id="subject" type="text" placeholder="Subject" /></li>
 											</ul>
 										</div>
@@ -1058,7 +1053,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<!-- /CONTACT -->
 
 				<!-- COPYRIGHT -->
-				<div class="iknow_tm_copyright onepage extra">
+				<!-- <div class="iknow_tm_copyright onepage extra">
 					<div class="inner">
 						<div class="left">
 							<p>Designed with love &copy; <a href="https://themeforest.net/user/marketify" target="_blank">Marketify</a></p>
@@ -1071,7 +1066,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<span class="bottom_shape"></span>
 				<!-- /COPYRIGHT -->
 

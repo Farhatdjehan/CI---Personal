@@ -515,6 +515,7 @@ function iknow_tm_popup(){
 		});
 
 	});
+	
 	jQuery('.popup-youtube, .popup-vimeo').each(function() { // the containers for all your galleries
 		jQuery(this).magnificPopup({
 			disableOn: 700,
