@@ -516,23 +516,23 @@ function iknow_tm_popup(){
 
 	});
 	
-	jQuery('.popup-youtube, .popup-vimeo').each(function() { // the containers for all your galleries
-		jQuery(this).magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
-			fixedContentPos: false
-		});
-	});
+	// jQuery('.popup-youtube, .popup-vimeo').each(function() { // the containers for all your galleries
+	// 	jQuery(this).magnificPopup({
+	// 		disableOn: 700,
+	// 		type: 'iframe',
+	// 		mainClass: 'mfp-fade',
+	// 		removalDelay: 160,
+	// 		preloader: false,
+	// 		fixedContentPos: false
+	// 	});
+	// });
 	
-	jQuery('.soundcloude_link').magnificPopup({
-	  type : 'image',
-	   gallery: {
-		   enabled: true, 
-	   },
-	});
+	// jQuery('.soundcloude_link').magnificPopup({
+	//   type : 'image',
+	//    gallery: {
+	// 	   enabled: true, 
+	//    },
+	// });
 }
 
 // -----------------------------------------------------
