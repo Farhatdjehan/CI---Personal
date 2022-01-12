@@ -155,11 +155,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<span>Portfolio</span>
 								<a class="iknow_tm_full_link" href="#portfolio"></a>
 							</li>
-							<li>
+							<!-- <li>
 								<img class="svg" src="assets/img/svg/gear.svg" alt="" />
 								<span>Service</span>
 								<a class="iknow_tm_full_link" href="#service"></a>
-							</li>
+							</li> -->
 							<!--
 						<li>
 							<img class="svg" src="assets/img/svg/message.svg" alt="" />
@@ -167,11 +167,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<a class="iknow_tm_full_link" href="#testimonial"></a>
 						</li>
 -->
-							<li>
+							<!-- <li>
 								<img class="svg" src="assets/img/svg/writing.svg" alt="" />
 								<span>Blog</span>
 								<a class="iknow_tm_full_link" href="#news"></a>
-							</li>
+							</li> -->
 							<li>
 								<img class="svg" src="assets/img/svg/letter.svg" alt="" />
 								<span>Contact</span>
