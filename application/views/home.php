@@ -490,18 +490,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<!-- PORTFOLIO -->
 				<div class="iknow_tm_section_new" id="portfolio">
 					<div class="iknow_tm_portfolio">
-						<div class="iknow_tm_main_title">
+						<div class="iknow_tm_main_title" style="margin-bottom: 24px">
 							<span>Resume</span>
 							<h3>My works that I did for clients</h3>
 						</div>
-						<div class="portfolio_filter">
+						<!-- <div class="portfolio_filter">
 							<ul>
 								<li><a href="#" class="current" data-filter="*">All</a></li>
-								<!-- <li><a href="#" data-filter=".youtube">Youtube</a></li> -->
-								<!-- <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li> -->
+								
 								<li><a href="#" data-filter=".detail">Detail</a></li>
 							</ul>
-						</div>
+						</div> -->
 						<div class="portfolio_list">
 							<ul class="gallery_zoom">
 
